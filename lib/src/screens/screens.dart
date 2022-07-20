@@ -1,0 +1,19 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:get/get.dart';
+import 'package:hive/hive.dart';
+import 'package:intl/intl.dart';
+import 'package:lottie/lottie.dart';
+import 'package:salt_test/src/cubit/cubits.dart';
+import 'package:salt_test/src/models/models.dart';
+import 'package:salt_test/src/utilities/utilities.dart';
+import 'package:salt_test/src/widgets/widgets.dart';
+import 'package:velocity_x/velocity_x.dart';
+
+part 'home/home_screen.dart';
+part 'home/home_controller.dart';
+part 'cart/cart_screen.dart';
+part 'cart/cart_controller.dart';
+part 'detail/detail_screen.dart';
+part 'detail/detail_controller.dart';
